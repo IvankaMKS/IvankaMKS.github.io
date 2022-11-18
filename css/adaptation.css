@@ -1,0 +1,70 @@
+@media screen and (max-width: 1900px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1120px){
+    .hamburger-menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 950px) {
+    .hamburger-menu{
+        display: none;
+    }
+    header{
+        height: 150vh;
+    }
+    .title_descp {
+        width: 50%;
+    }
+    .content_title_line{
+        margin-right: -70px
+    }
+    .content_desc {
+        margin-top: 0px;
+    }
+    .content_img{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .hamburger-menu{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+    .content_title_line {
+        margin-right: -55px;
+    }
+    .content_img_first{
+        margin-top: 50px;
+        margin-top: -20px;
+    }
+    .content_img_second{
+        margin-top: 20px;
+    }
+    .title_descp{
+        margin-top: 0px;
+    }
+    .title_line{
+        height: 90px;
+    }
+    .content_img_second{
+        width: 65%;
+    }
+    .advantages {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 630px){
+
+}
