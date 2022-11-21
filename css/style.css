@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
 }
 header {
-    background: url('../img/photo.jpg') no-repeat;
+    background: url('../image/photo.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
