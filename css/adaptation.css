@@ -3,17 +3,61 @@
         display: none;
     }
 }
+@media screen and (min-width: 1300px){
+    .container{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1600px){
+    .container{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 1800px){
+    .container{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 2000px){
+    .container{
+        width: 50%;
+    }
+}
 @media screen and (max-width: 1120px){
     .hamburger-menu{
         display: none;
     }
 }
+@media screen and (max-width: 1024px) {
+    .content_title_line{
+        margin-right: -75px;
+    }
+}
+@media screen and (min-width: 950px) {
+    .title_descp_adapp{
+        display: none;
+    }
+    .title_descp_adap{
+        display: block;
+    }
+}
+
 @media screen and (max-width: 950px) {
     .hamburger-menu{
         display: none;
     }
     header{
-        height: 150vh;
+        height: 50vh;
+    }
+    #header{
+        height: 80vh;
+    }
+    .title_descp_adap{
+        display: none;
+    }
+    .title_descp_adapp{
+        display: block;
+        width: 80%;
     }
     .title_descp {
         width: 50%;
@@ -27,12 +71,32 @@
     .content_img{
         margin-top: 70px;
     }
+    .list_header{
+        height: 100vh;
+    }
+    .contact_adapp{
+        height: 100vh;
+    }
+    .sign_content{
+        width: 80%;
+    }
 }
-@media screen and (max-width: 750px) {
-    .hamburger-menu{
+@media screen and (min-width: 750px){
+    .contetnt_text_desc_adapp{
+        display: none;
+    }
+    .contetnt_text_desc_adap{
         display: block;
     }
-    #menu{
+}
+@media screen and (max-width: 750px) {
+    .hamburger-menu, .contetnt_text_desc_adapp{
+        display: block;
+    }
+    .menu_btn_adap>span, .menu_btn_adap > span::before, .menu_btn_adap > span::after{
+        background-color: #ffffff;
+    }
+    #menu, .contetnt_text_desc_adap{
         display: none;
     }
     .content_title_line {
@@ -57,14 +121,225 @@
     .advantages {
         width: 70%;
     }
+    header {
+        height: 80vh;
+    }
+    .contact_content_wrap{
+        display: block;
+    }
+    .contact_form, .contact_text{
+        width: 100%;
+    }
+    .contact_form{
+        margin-top: 40px;
+    }
+    .input_adap {
+        width: 80%;
+    }
+    .sub_adap{
+        width: 45%;
+    }
 }
-
-
-
-
-
-
-
-@media screen and (max-width: 630px){
-
+@media screen and (max-width: 910px) {
+    .content_title_line {
+        margin-right: -60px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .content_title_line {
+        margin-right: -50px;
+    }
+}
+@media screen and (min-width: 631px){
+    .content_img_adap{
+        display: block;
+    }
+    .content_img_adapp{
+        display: none;
+    }
+}
+@media screen and (max-width: 630px) {
+    .menu__btn{
+        margin-left: 20px;
+    }
+    .title_line {
+        height: 115px;
+    }
+    .content_title_line{
+        display: none;
+    }
+    .content_desc_wrap{
+        display: block;
+    }
+    .content_desc, .inventory{
+        width: 100%;
+    }
+    .cont_img_ad{
+        margin-top: 20px;
+    }
+    .content_img_first{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .content_title_second{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .advantages{
+        width: 100%;
+    }
+    .content_img_adap{
+        display: none;
+    }
+    .content_img_adapp{
+        display: block;
+    }
+    .content_img_second_adapp{
+        width: 80%;
+    }
+    .content_img_second {
+        margin-top: 0px;
+    }
+    .content_img {
+        margin-top: 20px;
+    }
+    header {
+        height: 80vh;
+    }
+    .sign_content{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .content_img_adap{
+        display: none;
+    }
+    .content_img_adapp{
+        display: block;
+    }
+    .content_title_line{
+        display: none;
+    }
+    .content_desc_wrap{
+        display: block;
+    }
+    .title_line {
+        height: 140px;
+    }
+    .content_img_first{
+        margin-top: 40px;
+    }
+    header {
+        height: 80vh;
+    }
+    .btn_two_adap{
+        min-width: 20%;
+    }
+    .form_input_wrap {
+        display: block;
+    }
+    #form_message{
+        height: auto;
+    }
+    #inputs_first, #inputs_second{
+        width: 100%;
+        text-align: left;
+        margin-top: 0px;
+    }
+    .input_adap_first{
+        margin-top: 30px;
+    }
+    .sub_adap_send{
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .content_img_adap{
+        display: none;
+    }
+    .content_img_adapp{
+        display: block;
+    }
+    .content_title_line{
+        display: none;
+    }
+    .content_desc_wrap{
+        display: block;
+    }
+    .title_line {
+        height: 165px;
+    }
+    header {
+        height: 80vh;
+    }
+    .sign_content{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px){
+    .content_img_adap{
+        display: none;
+    }
+    .content_img_adapp{
+        display: block;
+    }
+    .content_title_line{
+        display: none;
+    }
+    .content_desc_wrap{
+        display: block;
+    }
+    .title_line {
+        height: 170px;
+    }
+}
+@media screen and (max-width: 370px){
+    .title_line {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 350px){
+    .title_line {
+        height: 195px;
+    }
+    .contact_form{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 283px){
+    .contact_form{
+        margin-top: 120px;
+    }
+}
+@media screen and (max-width: 320px){
+    .content_img_adap{
+        display: none;
+    }
+    .content_img_adapp{
+        display: block;
+    }
+    .content_title_line{
+        display: none;
+    }
+    .content_desc_wrap{
+        display: block;
+    }
+    .title_line {
+        height: 205px;
+    }
+    .title_descp_adapp{
+        font-size: 12px;
+    }
+    .title_about_adap{
+        font-size: 25px;
+    }
+    .btn_two_adap {
+        margin-right: 0px;
+        font-size: 12px;
+        margin-left: 0px;
+    }
 }
