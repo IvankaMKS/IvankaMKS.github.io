@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
 }
 header {
-    background: url('../img/about_us.png') no-repeat;
+    background: url('../image/about_us.png') no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100%;
