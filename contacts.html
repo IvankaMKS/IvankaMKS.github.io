@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="contact_adapp">
         <div class="container">
             <nav id="nav">
                 <div class="container_header">
@@ -39,30 +39,50 @@
                     </ul>
 
                 </div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html" class="logo">InventoryMKS</a></li>
+                        <li><a class="menu__item" href="about_us.html">About us</a></li>
+                        <li><a class="menu__item" href="list.html">Tasks</a></li>
+                        <li><a class="menu__item" href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+
             </nav>
             <div class="contact_content_wrap">
                 <div class="contact_text">
                     <h1 class="contetnt_text_title">Contact us</h1>
-                    <p class="contetnt_text_desc">If you have questions <br>
+                    <p class="contetnt_text_desc contetnt_text_desc_adap">If you have questions <br>
                         about the operation of <br>
                         the service, or you need <br>
+                        help, then contact us!</p>
+                    <p class="contetnt_text_desc contetnt_text_desc_adapp">If you have questions
+                        about the operation of
+                        the service, or you need
                         help, then contact us!</p>
 
                 </div>
                 <div class="contact_form">
-                    <form id="form_message" class="form" action="">
+                    <form id="form_message" class="login-form form " action="">
                         <div class="form_wrap">
                             <div class="form_input_wrap">
                                 <div id="inputs_first">
-                                    <input class="input" name="name" type="text" placeholder="Name" />
+                                    <input class="input input_adap input_adap_first" name="name" type="text"
+                                        placeholder="Name" />
 
-                                    <input class="input" name="email" type="text" placeholder="Email" />
+                                    <input class="input input_adap" name="email" type="text" placeholder="Email" />
 
-                                    <input class="input" name="phone" type="text" placeholder="Phone" />
+                                    <input class="input input_adap" name="phone" type="text" placeholder="Phone" />
                                 </div>
-                                <div id="inputs_second">
-                                    <input class="input input_second" name="message" type="text" placeholder="Enter your message" />
-                                    <input id="submit" value="Send" type="submit" />
+                                <div class="inputs_second_adap" id="inputs_second">
+                                    <input class="input input_second input_adap" name="message" type="text"
+                                        placeholder="Enter your message" />
+                                    <button class="submit_button submit_aadap sub_adap_send" id="submit" type="submit" disabled>Send</button>
 
                                 </div>
 
@@ -73,25 +93,7 @@
                 </div>
 
             </div>
-            <!-- <form id="form_message" class="form">
-                <h2>Contact form</h2>
-                <div id="inputs">
-                    <input class="input" name="name" type="text" placeholder="Name" />
-        
-                    <input class="input" name="email" type="text" placeholder="Email" />
-        
-                    <input class="input" name="subjects" type="text" placeholder="Write here" />
-        
-                    <textarea name="message" cols="22" rows="5"></textarea>
-                </div>
-        
-                <div id="form_button">
-                    <input id="submit" value="Send" type="submit" />
-                </div>
-        
-            </form> -->
-
-
+            <script src="./scripts/form_contsct.js"></script>
         </div>
         <div class="footer">
             <div class="foot_wrap">
